@@ -1,0 +1,5 @@
+{% extends 'base.html' %}
+{% block title %}Admin Login | CodeShadow{% endblock %}
+{% block body %}
+<main class="admin-shell"><a class="brand" href="/"><i></i>Code<span>Shadow</span></a><section class="admin-card"><p class="kicker">PRIVATE AREA</p><h1>Enquiries<br><em>dashboard.</em></h1><p>Sign in to view project inquiries.</p><form method="post" action="/admin/login" class="admin-form"><label>Username<input name="username" autocomplete="username" required autofocus></label><label>Password<input name="password" type="password" autocomplete="current-password" required></label><button class="button primary" type="submit">Sign in <b>→</b></button>{% if error %}<p class="admin-error" role="alert">{{ error }}</p>{% endif %}</form></section></main>
+{% endblock %}
