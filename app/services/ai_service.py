@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 from app.config import ROOT_DIR, get_settings
 
-CONTACT = "+91 9209218394 | pbhaler006@gmail.com"
+CONTACT = "+91 9209218394 | codeshadow98@gmail.com"
 OUT_OF_SCOPE = ("I'm here specifically to help with CodeShadow's technology services, solutions, and project inquiries. "
                 "I can help you with software development, SaaS, AI, FastAPI, chatbots, automation, websites, applications, APIs, cloud solutions, and related services.")
 PRICING = ("Pricing depends on project scope, features, complexity, integrations, design, technology, timeline, and infrastructure requirements. "
